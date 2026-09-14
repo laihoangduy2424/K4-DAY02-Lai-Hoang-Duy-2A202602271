@@ -73,7 +73,7 @@ Ví dụ cho thấy lớp và thuộc tính là hai loại thông tin khác nhau
 - [x] Có kết quả kiểm hai gói xuất.
 - [x] Có thông tin lần huấn luyện và ảnh dự đoán.
 - [x] Có tóm tắt, bảng và ảnh phủ của bước đối chiếu.
-- [ ] Không có gói xuất thô, bộ nhãn tham chiếu hoặc trọng số mô hình — cần kiểm tra lại nội dung repository sau khi upload.
-- [ ] Không có dữ liệu VinFast/khách hàng/ảnh cá nhân/mật khẩu/mã truy cập — cần kiểm tra lại repository trước khi nộp.
+- [ ] Không có gói xuất thô, bộ nhãn tham chiếu hoặc trọng số mô hình.
+- [ ] Không có dữ liệu VinFast/khách hàng/ảnh cá nhân/mật khẩu/mã truy cập.
 
 **Minh chứng mạnh nhất trong bài:** hai định dạng xuất của cùng một bộ nhãn cá nhân có `object_count=59`, cùng lớp và cùng số hộp; kiểm tra chéo định dạng cho `same_annotation_state=true`, 59 hộp ghép được với IoU nhỏ nhất khoảng `0.999951`, cho thấy gói YOLO và CVAT gốc của mình nhất quán. Ngoài ra, đối chiếu độc lập với bộ tham chiếu cho 45 hộp ghép, IoU trung bình `0.857294`, trung vị `0.870866` và đồng thuận lớp `68.89%`.
